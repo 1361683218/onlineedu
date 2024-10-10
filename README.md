@@ -89,22 +89,7 @@
 - 访问 http://localhost:3001 进入用户界面
 - API 文档可在 http://localhost:5000/api-docs 查看（如果已配置 Swagger）
 
-## 贡献
 
-如果你想为这个项目做出贡献，请遵循以下步骤：
-
-1. Fork 这个仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启一个 Pull Request
-
-## 许可证
-
-[选择一个适合你项目的许可证，例如 MIT License]
 
 ## 联系方式
 
-Your Name - your.email@example.com
-
-项目链接: [https://github.com/your-username/online-education-platform](https://github.com/your-username/online-education-platform)
