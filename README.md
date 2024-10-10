@@ -1,6 +1,8 @@
 # 在线教育平台
 
-这是一个综合的在线教育平台，包含后端 API 服务器、管理员前端界面和用户前端界面。
+# 在线教育平台
+
+这是一个综合的在线教育平台，旨在提供高质量的在线学习体验。该平台包含后端 API 服务器、管理员前端界面和用户前端界面。
 
 ## 项目结构
 
@@ -8,81 +10,57 @@
 - `frontend-admin/`: 管理员前端界面
 - `frontend-user/`: 用户前端界面
 
-## 前置要求
+## 技术栈
 
-在运行此项目之前，请确保你的系统中已安装以下软件：
+- 后端：Node.js, Express.js, MongoDB
+- 前端：React.js
+- 文件存储：MinIO
 
-- Node.js (推荐版本 14.x 或更高)
-- npm (通常随 Node.js 一起安装)
-- MongoDB (确保 MongoDB 服务正在运行)
+## 功能特性
 
-## 安装
+- 用户认证和授权
+- 课程管理
+- 视频流媒体
+- 在线测试和评估
+- 学习进度跟踪
+- 管理员仪表板
+
+## 开发环境设置
 
 1. 克隆仓库：
-
-   ```bash
-   git clone https://github.com/your-username/online-education-platform.git
-   cd online-education-platform
+   ```
+   git clone https://github.com/1361683218/onlineedu.git
+   cd onlineedu
    ```
 
-2. 安装所有依赖：
 
-   ```bash
-   npm run install:all
-   ```
+3. 配置环境变量：
+   在 `backend/` 目录中创建 `.env` 文件，并设置必要的环境变量。
 
-   这个命令会安装主项目和所有子项目的依赖。
+4. 启动开发服务器：
+   - 后端：`cd backend && npm run dev`
+   - 管理员前端：`cd frontend-admin && npm start`
+   - 用户前端：`cd frontend-user && npm start`
 
-## 配置
+## 贡献指南
 
-1. 后端配置：
-   - 进入 `backend/` 目录
-   - 复制 `.env.example` 文件并重命名为 `.env`
-   - 根据你的环境修改 `.env` 文件中的配置
-在 `.env` 文件中设置以下环境变量：
+我们欢迎所有形式的贡献。如果您想为项目做出贡献，请遵循以下步骤：
 
-     ```
-     MONGO_URI=mongodb://<your_mongodb_host>:<port>/online_education_platform
-     JWT_SECRET=<your_jwt_secret>
-     MINIO_ENDPOINT=<your_minio_host>
-     MINIO_PORT=<your_minio_port>
-     MINIO_ACCESS_KEY=<your_minio_access_key>
-     MINIO_SECRET_KEY=<your_minio_secret_key>
+1. Fork 本仓库
+2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
 
-## 运行项目
+## 许可证
 
-1. 启动后端服务器：
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
-   ```bash
-   cd backend
-   npm install
-   npm run dev
-   ```
+## 联系方式
 
-   后端服务器将在 http://localhost:5000 运行（除非在 .env 文件中另有指定）。
+项目维护者：[1361683218](mailto:1361683218@qq.com)
 
-2. 启动管理员前端：
-
-   ```bash
-   cd frontend-admin
-   npm install
-   npm strat
-   ```
-
-   管理员界面将在 http://localhost:3000 运行。
-
-3. 启动用户前端：
-
-   ```bash
-   cd frontend-user
-   npm install
-   npm strat
-   ```
-
-   用户界面将在 http://localhost:3001 运行。
-
-注意：请确保在不同的终端窗口中运行这些命令，因为每个命令都会持续运行并输出日志。
-
+项目链接：https://github.com/1361683218/onlineedu
 ## 使用说明
 
 - 访问 http://localhost:3000 进入管理员界面
