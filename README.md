@@ -25,6 +25,19 @@
 - 学习进度跟踪
 - 管理员仪表板
 
+## 项目截图
+
+### 后端
+![后端截图](images/backend.png)
+
+### 客户端
+![客户端截图1](images/client1.png)
+![客户端截图2](images/client2.png)
+
+### 管理员端
+![管理员端截图1](images/admin1.png)
+![管理员端截图2](images/admin2.png)
+
 ## 开发环境设置
 
 1. 克隆仓库：
@@ -33,11 +46,10 @@
    cd onlineedu
    ```
 
-
-3. 配置环境变量：
+2. 配置环境变量：
    在 `backend/` 目录中创建 `.env` 文件，并设置必要的环境变量。
 
-4. 启动开发服务器：
+3. 启动开发服务器：
    - 后端：`cd backend && npm run dev`
    - 管理员前端：`cd frontend-admin && npm start`
    - 用户前端：`cd frontend-user && npm start`
@@ -61,13 +73,12 @@
 项目维护者：[1361683218](mailto:1361683218@qq.com)
 
 项目链接：https://github.com/1361683218/onlineedu
+
 ## 使用说明
 
 - 访问 http://localhost:3000 进入管理员界面
 - 访问 http://localhost:3001 进入用户界面
 - API 文档可在 http://localhost:5000/api-docs 查看（如果已配置 Swagger）
-
-
 
 ## 联系方式
 
